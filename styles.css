@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 800px;
+  border: solid 5px black;
+}
+.row {
+  display: flex;
+}
+.square {
+  flex: 1 1 auto;
+  aspect-ratio: 1 / 1;
+}
